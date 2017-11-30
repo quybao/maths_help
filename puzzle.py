@@ -37,10 +37,10 @@ assert(times_box_worked_on(12, 1) == 1)
 assert(times_box_worked_on(12, 2) == 2)
 
 # if we do 3 passes, box 12 will be worked on during pass 1,2, and 3
-assert(times_box_worked_on(12, 3) == 3) # box worked on during pass 1, 2, 3,
+assert(times_box_worked_on(12, 3) == 3) 
 
 # if we do 5 passes, box 12 will be worked on during pass 1,2,3 and 4
-assert(times_box_worked_on(12, 5) == 4) # box worked on during pass 
+assert(times_box_worked_on(12, 5) == 4) 
 
 # if we do 10 passes, box 12 will be worked on during pass 1,2,3,4 and 6
 assert(times_box_worked_on(12, 10) == 5)
